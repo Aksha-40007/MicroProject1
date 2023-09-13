@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Delius+Unicase:regular,700');
 @import url('https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
+@media screen and (min-width:2590px) and (max-width:6000px){
 .navbar{
-    width: 99.5vw;
-    height: 240px;
+    width: 98vw;
+    height: 7vh;
     background: #6F6AF7;
     padding: 0px 0px 57px 130px;
     position: fixed;
@@ -40,7 +41,7 @@ li{
     line-height: normal;
     display: flex;
     gap:15.5rem;
-    margin-left: 45rem;
+    margin-left: 35rem;
     margin-bottom: 10rem;
 }
 
@@ -95,7 +96,7 @@ li{
 }
 
 .card1{
-    padding-top: 450px;
+    padding-top: 520px;
     padding-left: 500px;
     display: flex;
     flex-direction:row;
@@ -128,7 +129,7 @@ p{
 }
 
 .card2{
-    margin-top:100px;
+    margin-top:140px;
     display: flex;
     margin-left: 420px;
     gap:10rem;  
@@ -251,6 +252,13 @@ p{
     letter-spacing: 2.16px;
     padding: 90px;
 }
+
+.c4 img{
+    margin:280px 0px 80px 580px;
+    width: 600px;
+    position: fixed;
+}
+
 
 .card3{
     display: flex;
@@ -399,10 +407,12 @@ button{
 }
 
 div.image1{
+    display: flex;
+    flex-direction: column;
     position: sticky;
     top: 800px;
     margin-top: 1200px;
-    margin-left: 700px;
+    margin-left: 120px;
 }
 
 #s6{
@@ -425,4 +435,13 @@ div.image1{
     width: 185px;
     height: 185px;
 }
-
+}
+/* and (max-width:7999px) */
+@media screen and (min-width: 300px) and (max-width:2597px) {
+    .navbar{
+        display:none ;
+    }
+    .desktop{
+        display: none;
+    }
+}
